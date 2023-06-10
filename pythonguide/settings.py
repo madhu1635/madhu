@@ -25,7 +25,7 @@ SECRET_KEY = '#etky*io6_)^j2pl$=$%mmqc0yjrm__%(6ty%m!7kd+m!5vm#-'
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = False
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'pythonguide.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'testdb1',
-        'USER': "postgres",
+        'NAME': 'madhu',
+        'USER': "testuser",
         'PASSWORD': "madhu@123",
-        'HOST': "localhost",
+        'HOST': "209.38.243.76",
         'PORT': '5432'
     }
 }
